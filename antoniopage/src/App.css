@@ -40,3 +40,47 @@
 .read-the-docs {
   color: #888;
 }
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 2s ease-out, transform 1.5s ease-out;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+.fade-in-r-section {
+  opacity: 0;
+  transform: translateX(20px);
+  transition: opacity 2s ease-out, transform 1.5s ease-out;
+}
+
+.fade-in-r-section.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+.fade-in-l-section {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity 2s ease-out, transform 1.5s ease-out;
+}
+
+.fade-in-l-section.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+.fade-in-invert-section {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 2s ease-out, transform 1.5s ease-out;
+}
+
+.fade-in-invert-section.is-visible {
+  opacity: 1;
+  transform: none;
+}
