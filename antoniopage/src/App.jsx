@@ -147,15 +147,15 @@ function App() {
         </div>
       </section>
       <section>
-      <p ref={el => sectionsRef.current[15] = el} className='fade-in-l-section text-xl lg:text-[2.2rem] font-light text-center mt-14 mb-14'>No experience...</p>
-        <div className=' flex flex-col lg:flex-row gap-5 md:gap-[10em] rounded-xl mt-10 items-center justify-center'>
-          <p ref={el => sectionsRef.current[16] = el} style={{ color: '#1F1717', opacity: '100%' }} className='fade-in-l-section text-xl lg:ml-10 lg:text-[2.2rem] font-light text-center mt-14 mb-14'>Living experiences :) </p>
-          <img ref={el => sectionsRef.current[17] = el} src="/icpc1.png" alt="Antonio" className="fade-in-r-section rounded-lg h-auto w-[300px] md:w-[250px] mt-10 mb-10 " />
+      <p ref={el => sectionsRef.current[15] = el} className='fade-in-l-section text-xl lg:text-[2.2rem] font-light text-center mt-14 lg:mb-14'>No experience...</p>
+        <div className=' flex flex-col lg:flex-row gap-5 lg:gap-[5em] rounded-xl mt-10 items-center justify-center'>
+          <p ref={el => sectionsRef.current[16] = el} style={{ color: '#1F1717', opacity: '100%' }} className='fade-in-l-section text-xl lg:ml-10 lg:text-[2.2rem] font-light text-center mt-5 mb-1 lg:mt-14 lg:mb-14'>Living experiences :) </p>
+          <img ref={el => sectionsRef.current[17] = el} src="/icpc1.png" alt="Antonio" className="fade-in-r-section rounded-lg h-auto w-[300px] lg:w-[300px] mt-[1em] lg:mt-10 mb-10 " />
         </div>
-        <div className=' flex flex-cols-3 gap-[3em] mt-10 items-center justify-center'>
-          <img ref={el => sectionsRef.current[18] = el} src="/nuevent.png" alt="" className="fade-in-l-section rounded-lg h-auto w-[320px] mb-10 " />  
-          <img ref={el => sectionsRef.current[19] = el} src="/icpc3.png" alt="" className="fade-in-section hidden md:block rounded-lg h-auto w-[350px] mb-10 " />
-          <img ref={el => sectionsRef.current[20] = el} src="/escom2.png" alt="" className="fade-in-r-section hidden md:block rounded-lg h-auto w-[320px] mb-10 " />
+        <div className=' flex flex-col lg:flex-row lg:gap-[2em] mt-10 items-center justify-center'>
+          <img ref={el => sectionsRef.current[18] = el} src="/nuevent.png" alt="" className="fade-in-l-section rounded-lg h-auto w-[280px] lg:w-[320px] mb-10 " />  
+          <img ref={el => sectionsRef.current[19] = el} src="/icpc3.png" alt="" className="fade-in-section rounded-lg h-auto w-[350px] mb-10 " />
+          <img ref={el => sectionsRef.current[20] = el} src="/escom2.png" alt="" className="fade-in-r-section hidden lg:block rounded-lg h-auto w-[320px] mb-10 " />
         </div>
         <div className='flex flex-col lg:flex-row gap-10 mt-10 items-center justify-center'>
   <img ref={el => sectionsRef.current[21] = el} src="/escom.png" alt="" className="fade-in-l-section rounded-lg h-auto w-[400px] mb-10" />

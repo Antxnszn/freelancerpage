@@ -14,16 +14,17 @@
       }
       
       body {
-        background-color: #9dd0ea; /* Color de fondo para todo el cuerpo */
+        background-color: #E0EAF3; /* Color de fondo para todo el cuerpo */
         margin: 0;
         padding: 0;
-        min-height: 100vh;
+        width: auto;
         position: relative;
       }
 
       .bg-dot::before {
         content: "";
         position: absolute;
+        width: auto;
         inset: 0;
         background: linear-gradient(60deg, #E0EAF3 20%, #CFDEF3 70%);
       }
@@ -36,7 +37,7 @@
       }
     </style>
   </head>
-  <body class="bg-[#9dd0ea] bg-dot min-h-screen w-full">
+  <body class="">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
