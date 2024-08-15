@@ -53,10 +53,10 @@ function App() {
           <div style={{ color: '#E0EAF3', opacity: '80%' }} className="bg-current mt-2 rounded-lg opacity-[100%] hidden w-auto md:block ml-[5em] mr-[15em]" id="navbar-default">
             <ul style={{ color: '#1F1717' }} className="font-normal flex flex-cols-3 md:p-0 mt-4 gap-14 mt-0 justify-center inline-block">
               <li>
-                <a href="#section1" className="text-center block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 hover:text-blue-700">Projects</a>
+                <a href="#section1" className="text-center block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 hover:text-blue-700">Skills</a>
               </li>
               <li>
-                <a href="#section2" className="text-center block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 hover:text-blue-700">Skills</a>
+                <a href="#section2" className="text-center block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 hover:text-blue-700">Projects</a>
               </li>
               <li>
                 <a href="#section3" className="text-center block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 hover:text-blue-700">Contact Me</a>
@@ -117,29 +117,29 @@ function App() {
       
       <h2  ref={el => sectionsRef.current[7] = el} id="section2" className="fade-in-section text-[2.5rem] lg:text-[3.0rem] font-light text-center mt-14 mb-14">Projects</h2>
       <section  ref={el => sectionsRef.current[8] = el} class="fade-in-section bg-transparent">
-        <div class="py-8 px-4 mx-auto max-w-screen-sm lg:max-w-screen-md" >
+        <div ref={el => sectionsRef.current[7] = el} class="fade-in-section py-8 px-4 mx-auto max-w-screen-sm lg:max-w-screen-md" >
           <div  class="bg-transparent border border-gray-700 p-8 lg:p-12">
             
-            <h1 ref={el => sectionsRef.current[9] = el} style={{ color: '#1F1717' }} class="text-white text-3xl lg:text-[2.8rem] font-normal mb-8">DevInterview</h1>
-            <p ref={el => sectionsRef.current[10] = el} style={{ color: '#1F1717' }} class="text-sm font-normal mb-6">Collaborators: <span href="https://github.com/mvnueloc" className="hover:underline">@mvnueloc</span> <span href="https://github.com/danielctecla" className="hover:underline">@danieltecla</span>.</p>
-            <p ref={el => sectionsRef.current[11] = el} style={{ color: '#1F1717' }}class="text-lg font-light mb-6">Get Ready for Technical Interviews! Leverage the power of Vercel SDK AI API to test your skills and assess your readiness for the job of your dreams</p>
-            <a ref={el => sectionsRef.current[12] = el} style={{ color: '#1F1717' }} href="https://devinterview.vercel.app/" class="hover:underline inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white hover:text-blue-500 focus:ring-blue-300 dark:focus:ring-blue-900">
+            <h1 style={{ color: '#1F1717' }} class="text-white text-3xl lg:text-[2.8rem] font-normal mb-8">DevInterview</h1>
+            <p style={{ color: '#1F1717' }} class="text-sm font-normal mb-6">Collaborators: <span href="https://github.com/mvnueloc" className="hover:underline">@mvnueloc</span> <span href="https://github.com/danielctecla" className="hover:underline">@danieltecla</span>.</p>
+            <p style={{ color: '#1F1717' }}class="text-lg font-light mb-6">Get Ready for Technical Interviews! Leverage the power of Vercel SDK AI API to test your skills and assess your readiness for the job of your dreams</p>
+            <a style={{ color: '#1F1717' }} href="https://devinterview.vercel.app/" class="hover:underline inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white hover:text-blue-500 focus:ring-blue-300 dark:focus:ring-blue-900">
               Try it!
               
             </a>
           </div>
-          <div class="grid md:grid-cols-2">
+          <div ref={el => sectionsRef.current[13] = el} class="fade-in-l-section grid md:grid-cols-2">
             <div style={{ color: '#1F1717' }} class="bg-transparent border border-gray-700 p-8 lg:p-12">
               
-              <h2 ref={el => sectionsRef.current[13] = el} class="fade-in-section text-2xl lg:text-[1.8rem] font-normal mb-5">Guard IA</h2>
+              <h2  class="fade-in-section text-2xl lg:text-[1.8rem] font-normal mb-5">Guard IA</h2>
               <p style={{ color: '#1F1717' }} class="text-sm font-normal mb-6">Collaborators: <span href="https://github.com/mvnueloc" className="hover:underline">@mvnueloc</span> <span href="https://github.com/charlyguz" className="hover:underline">@charlyguz</span>.</p>
               <p  class="text-md lg:text-lg font-light  mb-4">AI Model Powered by YOLO v5 for Theft Detection.</p>
               <a  style={{ color: '#1F1717' }} href="https://charlyguz.github.io/landing/" class="hover:underline font-normal text-[1.1rem] lg:text-lg inline-flex items-center">Read more
                 
               </a>
             </div>
-            <div style={{ color: '#1F1717' }} className="border border-gray-700 p-8 md:p-12 bg-blend-color-luminosity flex flex-col items-center justify-center ">
-              <h2 ref={el => sectionsRef.current[14] = el} style={{ color: '#1F1717' }} className="fade-in-section text-[1.8rem] font-normal mb-10 mt-6">My competitive programming solves</h2>
+            <div ref={el => sectionsRef.current[14] = el} style={{ color: '#1F1717' }} className="fade-in-r-section border border-gray-700 p-8 md:p-12 bg-blend-color-luminosity flex flex-col items-center justify-center ">
+              <h2  style={{ color: '#1F1717' }} className=" text-[1.8rem] font-normal mb-10 mt-6">My competitive programming solves</h2>
               <GitHubLink />
             </div>
             
@@ -147,19 +147,19 @@ function App() {
         </div>
       </section>
       <section>
-      <p ref={el => sectionsRef.current[15] = el} className='fade-in-l-section text-xl lg:text-[2.2rem] font-light text-center mt-14 lg:mb-14'>No experience...</p>
+      <p ref={el => sectionsRef.current[16] = el} className='fade-in-l-section text-xl lg:text-[2.2rem] font-light text-center mt-14 lg:mb-14'>No experience...</p>
         <div className=' flex flex-col lg:flex-row gap-5 lg:gap-[5em] rounded-xl mt-10 items-center justify-center'>
-          <p ref={el => sectionsRef.current[16] = el} style={{ color: '#1F1717', opacity: '100%' }} className='fade-in-l-section text-xl lg:ml-10 lg:text-[2.2rem] font-light text-center mt-5 mb-1 lg:mt-14 lg:mb-14'>Living experiences :) </p>
-          <img ref={el => sectionsRef.current[17] = el} src="/icpc1.png" alt="Antonio" className="fade-in-r-section rounded-lg h-auto w-[300px] lg:w-[300px] mt-[1em] lg:mt-10 mb-10 " />
+          <p ref={el => sectionsRef.current[17] = el} style={{ color: '#1F1717', opacity: '100%' }} className='fade-in-l-section text-xl lg:ml-10 lg:text-[2.2rem] font-light text-center mt-5 mb-1 lg:mt-14 lg:mb-14'>Living experiences :) </p>
+          <img ref={el => sectionsRef.current[18] = el} src="/icpc1.png" alt="Antonio" className="fade-in-r-section rounded-lg h-auto w-[300px] lg:w-[300px] mt-[1em] lg:mt-10 mb-10 " />
         </div>
         <div className=' flex flex-col lg:flex-row lg:gap-[2em] mt-10 items-center justify-center'>
-          <img ref={el => sectionsRef.current[18] = el} src="/nuevent.png" alt="" className="fade-in-l-section rounded-lg h-auto w-[280px] lg:w-[320px] mb-10 " />  
-          <img ref={el => sectionsRef.current[19] = el} src="/icpc3.png" alt="" className="fade-in-section rounded-lg h-auto w-[350px] mb-10 " />
-          <img ref={el => sectionsRef.current[20] = el} src="/escom2.png" alt="" className="fade-in-r-section hidden lg:block rounded-lg h-auto w-[320px] mb-10 " />
+          <img ref={el => sectionsRef.current[19] = el} src="/nuevent.png" alt="" className="fade-in-l-section rounded-lg h-auto w-[280px] lg:w-[320px] mb-10 " />  
+          <img ref={el => sectionsRef.current[20] = el} src="/icpc3.png" alt="" className="fade-in-section rounded-lg h-auto w-[350px] mb-10 " />
+          <img ref={el => sectionsRef.current[21] = el} src="/escom2.png" alt="" className="fade-in-r-section hidden lg:block rounded-lg h-auto w-[320px] mb-10 " />
         </div>
         <div className='flex flex-col lg:flex-row gap-10 mt-10 items-center justify-center'>
-  <img ref={el => sectionsRef.current[21] = el} src="/escom.png" alt="" className="fade-in-l-section rounded-lg h-auto w-[400px] mb-10" />
-  <img ref={el => sectionsRef.current[22] = el} src="/icpc2.png" alt="" className="fade-in-invert-section rounded-lg h-[325px] w-auto mb-10" />
+  <img ref={el => sectionsRef.current[22] = el} src="/escom.png" alt="" className="fade-in-l-section rounded-lg h-auto w-[400px] mb-10" />
+  <img ref={el => sectionsRef.current[23] = el} src="/icpc2.png" alt="" className="fade-in-invert-section rounded-lg h-[325px] w-auto mb-10" />
 </div>
 
       </section>
@@ -167,8 +167,8 @@ function App() {
     
     
     <footer>
-      <p ref={el => sectionsRef.current[23] = el} className='fade-in-invert-section mt-10'>Let's build something amazing together!❤️</p>
-      <h4 className="text-[1.5rem] font-light text-center mt-10">Contact Me
+      <p ref={el => sectionsRef.current[24] = el} className='fade-in-invert-section mt-[4em]'>Let's build something amazing together!❤️</p>
+      <h4  id="section3" className="text-[2.0rem] font-light text-center mt-[4em]">Contact Me
         
         <div className="flex flex-row-2 mt-10 gap-6 items-center justify-center">
           
