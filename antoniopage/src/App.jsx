@@ -1,41 +1,27 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header'
-
+import GitHublogo from './icons/Github'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="font-text font-medium antialiased text-lg bg-wash dark:bg-wash-dark text-secondary dark:text-secondary-dark leading-base">
-      <Header />
-      <div className="xl:w-10/12 w-11/12 mx-auto min-h-[calc(100vh_-_64px)] lg:h-screen flex items-center">
-      <div>
-      <h1>Antonio Estrada</h1>
-      </div>
-      <div className="grid grid-rows-2">
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div style={{ color: '#1A1616' }} className="font-text font-medium antialiased text-lg bg-wash dark:bg-wash-dark leading-base">
+
+      <div className="flex flex-col lg:flex-row items-center justify-left lg:space-x-8">
+        <div>
+          <Header />
+        </div>
+        <body className="bg-transparent">
+          <p className="text-3xl font-light text-center">Welcome to my <span className="font- text-center">personal page</span>!</p>
+          <GitHublogo />
+        </body>
       </div>
       
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-      </div>
+      <footer>
+        <p>Made with ❤️ by Antonio</p>
+      </footer>
     </div>
   )
 }
