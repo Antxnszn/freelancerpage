@@ -53,10 +53,10 @@ function App() {
           <div style={{ color: '#E0EAF3', opacity: '80%' }} className="bg-current mt-2 rounded-lg opacity-[100%] hidden w-auto md:block ml-[5em] mr-[15em]" id="navbar-default">
             <ul style={{ color: '#1F1717' }} className="font-normal flex flex-cols-3 md:p-0 mt-4 gap-14 mt-0 justify-center inline-block">
               <li>
-                <a href="#section1" className="text-center block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 hover:text-blue-700">Projects</a>
+                <a href="#section2" className="text-center block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 hover:text-blue-700">Projects</a>
               </li>
               <li>
-                <a href="#section2" className="text-center block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 hover:text-blue-700">Skills</a>
+                <a href="#section1" className="text-center block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 hover:text-blue-700">Skills</a>
               </li>
               <li>
                 <a href="#section3" className="text-center block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 hover:text-blue-700">Contact Me</a>
